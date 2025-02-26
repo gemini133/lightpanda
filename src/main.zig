@@ -36,7 +36,7 @@ const log = std.log.scoped(.cli);
 
 pub const std_options = .{
     // Set the log level to info
-    .log_level = .debug,
+    .log_level = .err,
 
     // Define logFn to override the std implementation
     .logFn = logFn,
